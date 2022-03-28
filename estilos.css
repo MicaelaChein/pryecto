@@ -7,18 +7,28 @@
   box-sizing: border-box;
 }
 
-.btn-wsp {
-  background-image: url(./img/whatsapp.png);
-  background-size: cover;
-  background-position: center;
-  position: fixed;
-  width: 50px;
-  height: 50px;
-  line-height: 50px;
-  bottom: 30px;
-  right: 30px;
-  border-radius: 40px;
-  border: double 2px #ff3300;
+.logo1 {
+  background: #3a82b4;
+  background: linear-gradient(90deg, rgba(58, 130, 180, 0.8774860286) 0%, rgba(253, 100, 29, 0.9307073171) 50%, rgba(245, 243, 241, 0.9223039558) 100%);
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.logo {
+  color: #ff3300;
+  font-family: "Montserrat", sans-serif;
+  font-size: 50px;
+  text-shadow: 2px 2px black;
+}
+
+.logo2 {
+  color: #0077ff;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 30px;
+  text-shadow: 1.5px 1.5px black;
+  text-transform: uppercase;
 }
 
 .navbar {
@@ -26,7 +36,7 @@
 }
 
 .navlogo {
-  color: #f7af29;
+  color: #0077ff;
   font-family: "Montserrat", sans-serif;
   font-size: 25px;
   text-shadow: 1.5px 1.5px black;
@@ -34,12 +44,12 @@
 
 .navlogo:hover {
   color: white;
-  text-shadow: 1.5px 1.5px #f7af29;
+  text-shadow: 2px 2px black;
 }
 
 .nav-link {
-  color: #f7af29 !important;
-  font-family: "Source Sans Pro", sans-serif;
+  color: #0077ff !important;
+  font-family: "Montserrat", sans-serif;
   font-size: 18px;
 }
 
@@ -48,178 +58,128 @@
 }
 
 .navitem {
-  color: #f7af29;
-}
-
-.logo1 {
-  color: #f7af29;
-  text-align: center;
-  background-color: white;
-  font-size: 30px;
-  font-family: "Montserrat", sans-serif;
-  text-shadow: 1.5px 1.5px black;
-  border: hidden 4px #f7af29;
-  border: double 5px #ff3300;
-  background: #3a82b4;
-  background: linear-gradient(90deg, rgba(58, 130, 180, 0.8774860286) 0%, rgba(253, 100, 29, 0.9307073171) 50%, rgba(245, 243, 241, 0.9223039558) 100%);
-}
-
-.logo {
-  color: #ff3300;
-  text-shadow: 2.5px 2.5px black;
-  font-family: "Source Sans Pro", sans-serif;
-  font-size: 50px;
-}
-
-.logo2 {
   color: #0077ff;
-  text-shadow: 1.5px 1.5px black;
-  font-size: 30px;
-  text-transform: uppercase;
 }
 
-main {
-  background-image: url(./img/hero.jpg);
-  background-position: center;
+.baner {
+  background-image: url(./img/fondo\ banner\ 3.jpg);
   background-size: cover;
-  height: 500px;
-  width: 100%;
-  display: flex;
+  background-position: center;
   justify-content: center;
   align-content: center;
+  width: 100%;
+  height: 500px;
+  display: flex;
   text-align: center;
 }
 
 .principal {
-  width: 60%;
   background-color: rgba(29, 34, 75, 0.5);
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
 }
 
 h1 {
-  font-family: "Montserrat", sans-serif;
-  font-size: 50px;
-  text-align: center;
   color: #0077ff;
-  text-shadow: 2px 2px black;
-  padding-top: 100px;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-size: 40px;
+  text-shadow: 1.5px 1.5px #ff3300;
 }
 
 .subti {
-  font-size: 40px;
   color: white;
-  text-shadow: 1px 1px black;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 30px;
+  text-transform: capitalize;
+  text-shadow: 1.5px 1.5px #0077ff;
 }
 
 .p {
   color: white;
-  font-size: 30px;
-  text-shadow: 1px 1px black;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 25px;
+  text-transform: capitalize;
+  text-shadow: 1px 1px #0077ff;
 }
 
 button {
-  color: #ff3300;
   background-color: #0077ff;
-  font-size: 18px;
+  color: #ff3300;
   font-family: "Source Sans Pro", sans-serif;
-  padding: 5px;
+  font-size: 20px;
   border-radius: 5px;
-  text-shadow: 1px 1px black;
-  border: double 3px #ff3300;
+  padding: 5px;
+  text-shadow: 1.5px 1.5px black;
+  border: double 5px #ff3300;
 }
 
 button:hover {
-  color: white;
-  text-shadow: 0.5px 0.5px black;
+  color: #0077ff;
+  background-color: #ff3300;
+  text-shadow: 1.5px 1.5px black;
+  border: double 5px #0077ff;
 }
 
 .nos {
   background-image: url(./img/nosotros.svg);
   background-size: cover;
+  width: 100%;
+  height: 800px;
 }
 
-h2 {
-  font-size: 60px;
-  font-family: "Montserrat", sans-serif;
-  text-align: center;
-  color: #0077ff;
-  text-shadow: 2px 2px black;
-  padding: 15px;
-  text-transform: capitalize;
-}
-
-.btn-primary {
-  background-color: #0077ff;
-  color: #ff3300;
-  text-shadow: 0.5px 0.5px black;
-  font-size: 20px;
-  border: double 3px #ff3300;
-  font-family: "Source Sans Pro", sans-serif;
-}
-
-.btn-primary:hover {
-  color: white;
-  background-color: #ff3300;
-  border: double 3px #ff3300;
-  text-shadow: 0.5px 0.5px black;
-  font-size: 20px;
-  border: double 3px #ff3300;
-  font-family: "Source Sans Pro", sans-serif;
-}
-
-.cuadrilla {
-  display: grid;
-  grid-template-columns: 400px 400px 400px;
-  grid-template-rows: 400px;
-  grid-auto-columns: 1fr;
-  grid-auto-rows: 1fr;
-  gap: 5px 5px;
-  grid-auto-flow: column;
-  grid-template-areas: "servicio equipos insumos";
+.nosotros {
   display: flex;
+  flex-direction: row;
   justify-content: space-evenly;
-  height: 600px;
+  align-content: center;
+  text-align: center;
+  padding: 10%;
+  gap: 10%;
+  width: 100%;
+  height: 500px;
 }
 
-.servicio {
-  grid-area: servicio;
-  padding-top: 50px;
+.card-img-top {
+  height: 200px !important;
 }
 
-.servicio:hover {
-  transform: translate(20px, 50px);
-}
-
-.equipos {
-  grid-area: equipos;
-  padding-top: 150px;
-}
-
-.equipos:hover {
-  transform: translate(20px, 50px);
-}
-
-.insumos {
-  grid-area: insumos;
-  padding-top: 50px;
-}
-
-.insumos:hover {
-  transform: translate(20px, 50px);
+.card-body {
+  height: 280px;
+  background-color: #70befd;
 }
 
 .card-title {
   color: #0077ff;
-  font-size: 20px;
-  text-shadow: 1px 1px black;
+  font-family: "Source Sans Pro", sans-serif;
+  text-transform: uppercase;
+  background-color: #ff3300;
 }
 
 .card-text {
   color: white;
-  font-size: 15px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 18px;
+  text-align: center;
+  align-items: center;
 }
 
-.card {
-  background-color: rgba(240, 82, 20, 0.692);
+.btn-primary {
+  color: #ff3300;
+  font-family: "Source Sans Pro", sans-serif;
+  background-color: #0077ff;
+  border: double 3px black;
+  text-shadow: 0.5px 0.5px white;
+  padding: 3%;
+}
+
+.btn-primary:hover {
+  color: #0077ff;
+  background-color: #ff3300;
 }
 
 .footer {
@@ -255,7 +215,7 @@ h2 {
 }
 
 p {
-  color: #0077ff;
+  color: #ff3300;
   font-size: 20px;
   font-family: "Montserrat", sans-serif;
   text-align: center;
@@ -268,6 +228,18 @@ h4 {
   text-transform: uppercase;
   color: #0077ff;
   text-shadow: 1px 1px black;
+}
+
+h2 {
+  padding: 25px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 50px;
+  text-transform: capitalize;
+  text-shadow: 1.8px 1.8px #0077ff;
 }
 
 /*# sourceMappingURL=estilos.css.map */
