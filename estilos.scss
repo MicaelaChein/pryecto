@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2? family= Baile+Script & family= Fredoka:wght@300 & family= Handlee & familia= Montserrat:peso@200 &family= Tajawal:wght@800 & display=swap' );
+@import url('https://fonts.googleapis.com/css2? family= Baile+Script & family= Fredoka:wght@300 & family= Handlee & familia= Montserrat:peso@200;700 &family= Tajawal:wght@800 & display=swap' );
+@import url('https://fonts.googleapis.com/css2? family= Baile+Script & family= Fredoka:wght@300 & family= Handlee & familia= Montserrat:ital,peso@0,200;0,700;1,500;1,600 &familia = Fuente + Sans + Pro: peso @ 600 &family= Tajawal:wght@800 & display=swap' );
+
+$color1:white;
+$color2:black;
+$color3:rgb(247, 175, 41);
+$color4:rgb(24, 49, 163);
+$color5:rgb(101, 101, 138);
+$color6:rgb(0, 119, 255);
+$color7:rgb(255, 51, 0);
+$color8:rgba(240, 82, 20, 0.692);
+
+$font1:'Montserrat', sans-serif;
+$font2:'Source Sans Pro', sans-serif;
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.btn-wsp{
+    background-image: url(./img/whatsapp.png);
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    bottom: 30px;
+    right: 30px;
+    border-radius: 40px;
+    border: double 2px $color7;
+}
+.navbar{
+    background-color: $color7;
+}
+.navlogo{
+    color: $color3;
+    font-family: $font1;
+    font-size: 25px;
+    text-shadow: 1.5px 1.5px $color2;
+}
+.navlogo:hover{
+    color: $color1;
+    text-shadow: 1.5px 1.5px $color3;
+}
+.nav-link{
+    color: $color3 !important;
+    font-family: $font2;
+    font-size: 18px;
+}
+.nav-link:hover{
+    color: $color1 !important;
+}
+.navitem{
+    color: $color3;
+
+}
+.logo1{
+    color: $color3;
+    text-align: center;
+    background-color: $color1;
+    font-size: 30px;
+    font-family: $font1;
+    text-shadow: 1.5px 1.5px $color2;
+    border: hidden 4px $color3;
+    border: double 5px $color7;
+    background: rgb(58,130,180);
+    background: linear-gradient(90deg, rgba(58,130,180,0.8774860285911239) 0%, rgba(253,100,29,0.9307073171065301) 50%, rgba(245,243,241,0.9223039557619923) 100%);
+}
+.logo{
+    color: $color7;
+    text-shadow: 2.5px 2.5px $color2;
+    font-family: $font2;
+    font-size: 50px;
+}
+.logo2{
+    color: $color6;
+    text-shadow: 1.5px 1.5px $color2;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.baner{
+    background-image: url(./img/hero.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+.principal{
+    width: 60%;
+    background-color: rgba(29, 34, 75, 0.5);
+}
+h1{
+    font-family: $font1;
+    font-size: 50px;
+    text-align: center;
+    color: $color6;
+    text-shadow: 2px 2px $color2;
+    padding-top: 100px;
+}
+.subti{
+    font-size: 40px;
+    color: $color1;
+    text-shadow: 1px 1px $color2;
+}
+.p{
+    color: $color1;
+    font-size: 30px;
+    text-shadow: 1px 1px $color2;
+}
+
+button{
+    color: $color7;
+    background-color: $color6;
+    font-size: 18px;
+    font-family: $font2;
+    padding: 5px;
+    border-radius: 5px;
+    text-shadow: 1px 1px $color2;
+    border: double 3px $color7;
+    
+}
+button:hover{
+    color:$color1;
+    text-shadow: 0.5px 0.5px $color2;
+}
+.nos{
+    background-image: url(./img/nosotros.svg);
+    background-size: cover;
+}
+h2{
+    font-size: 60px;
+    font-family: $font1;
+    text-align: center;
+    color: $color6;
+    text-shadow: 2px 2px $color2;
+    padding: 15px;
+    text-transform: capitalize;
+}
+.btn-primary{
+    background-color: $color6;
+    color: $color7;
+    text-shadow: 0.5px 0.5px $color2;
+    font-size: 20px;
+    border: double 3px $color7;
+    font-family: $font2;
+}
+.btn-primary:hover{
+    color:$color1;
+    background-color: $color7;
+    border: double 3px $color7;
+    text-shadow: 0.5px 0.5px $color2;
+    font-size: 20px;
+    border: double 3px $color7;
+    font-family: $font2;
+}
+
+.cuadrilla {  
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    grid-template-rows: 400px;
+    grid-auto-columns: 1fr;
+    grid-auto-rows: 1fr;
+    gap: 5px 5px;
+    grid-auto-flow: column;
+    grid-template-areas:
+      "servicio equipos insumos";
+    display: flex;
+    justify-content: space-evenly;
+    height: 600px;
+}
+.servicio { 
+    grid-area: servicio; 
+    padding-top: 50px;
+}
+.servicio:hover{
+    transform: translate(20px,50px)
+}
+
+.equipos { 
+    grid-area: equipos;
+    padding-top: 150px;
+}
+.equipos:hover{
+    transform: translate(20px,50px)
+}
+
+.insumos { 
+    grid-area: insumos; 
+    padding-top: 50px;
+}
+.insumos:hover{
+    transform: translate(20px,50px)
+}
+.card-title{
+    color: $color6;
+    font-size: 20px;
+    text-shadow: 1px 1px $color2;
+}
+.card-text{
+    color: $color1;
+    font-size: 15px;
+}
+.card{
+    background-color: $color8;
+    border: 3px solid $color7;
+    margin-bottom: 10px;
+}
+.card:hover{
+    transform: scale(1.05);
+    transition: 0.7s;
+}
+.footer { 
+    background: rgb(58,130,180);
+    background: linear-gradient(90deg, rgba(58,130,180,0.8774860285911239) 0%, rgba(253,100,29,0.9307073171065301) 50%, rgba(245,243,241,0.9223039557619923) 100%);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 150px;
+    grid-auto-columns: 1fr;
+    grid-auto-rows: 1fr;
+    gap: 5px 5px;
+    grid-auto-flow: column;
+    grid-template-areas:
+    "ubicacion email telefonos horarios";
+}
+
+.ubicacion { 
+    grid-area: ubicacion; 
+    text-align: center;
+    justify-content: center;
+    font-size: $font1;
+}
+  
+  .email { grid-area: email; }
+  
+  .telefonos { grid-area: telefonos; }
+  
+  .horarios { grid-area: horarios; }
+p{
+    color: $color6;
+    font-size: 20px;
+    font-family: $font1;
+    text-align: center;
+}
+h4{
+    text-align: center;
+    font-size: 30px;
+    font-family: $font1;
+    text-transform: uppercase;
+    color: $color6;
+    text-shadow: 1px 1px $color2;
+}
+.jumbotron{
+    height: 500px;
+}
+.product-row{
+    padding: 10%;
+    display: flex;
+    justify-content: space-evenly !important;
+    align-items: center;
+    align-content: center;
+    gap: 10%;
+}
+.card-product{
+    background-color: $color8;
+    border: 3px solid $color7;
+    margin-bottom: 10px !important;
+}
+.card-product:hover{
+    transform: scale(1.05);
+    transition: 0.7s;
+}
+@import
