@@ -215,7 +215,7 @@ button:hover{
       .horarios { grid-area: horarios; }
     p{
         color: $color7;
-        font-size: 10px;
+        font-size: 25px;
         font-family: $font1;
         text-align: center;
     }
@@ -282,7 +282,7 @@ body{
 
 .maquinas{
     padding: 30px;
-    height: 6600px;
+    height: 3200px;
 }
 .product-row{
     display: flex;
@@ -349,7 +349,7 @@ body{
     text-transform: capitalize;
 }
 .contac{
-    background-image: url(/img/fondocontacto.jpg);
+    background-image: url(./img/fondocontacto.jpg);
     background-size: 100vw 100vh;
     height: 650px;
     background-position: center;
@@ -397,7 +397,7 @@ textarea{
     flex-direction: row;
     justify-content: space-evenly;
     width: 100%;
-    height: 8000px;
+    height: 2500px;
 }
 .insumos-row{
     display: flex;
@@ -446,7 +446,7 @@ textarea{
 
 .imagenserviciotecnico {
     grid-area: imagenserviciotecnico;
-    background-image: url(/img/servicio-tecnico-fotocopiadora.jpg); 
+    background-image: url(./img/servicio-tecnico-fotocopiadora.jpg); 
     background-size: cover;
     background-position: center;
 
@@ -454,7 +454,7 @@ textarea{
 
 .imagenlimpieza {
     grid-area: imagenlimpieza; 
-    background-image: url(/img/LIMPIEZA.jpg);
+    background-image: url(./img/LIMPIEZA.jpg);
     background-position: center;
     background-size: cover;
 
@@ -472,7 +472,7 @@ textarea{
 
 .imagenrepuestos {
     grid-area: imagenrepuestos;
-    background-image: url(/img/cambiar-toner.jpg);
+    background-image: url(./img/cambiar-toner.jpg);
     background-size: cover;
     background-position: center;
     }
@@ -487,10 +487,10 @@ textarea{
     align-content: center;
 }
 .tex-serv{
-    font-size: 50px;
+    font-size: 80px;
 }
 .alquiler{
-    background-image: url(/img/foto\ seccion1.jpg);
+    background-image: url(./img/foto\ seccion1.jpg);
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -504,7 +504,7 @@ textarea{
 .text-alquiler{
     color: $color7;
     text-shadow: 1px 1px $color2;
-    font-size: 20px;
+    font-size: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -539,7 +539,7 @@ textarea{
 }
 @media screen and (min-widht:480px) and (max-width:780px) {
     .baner{
-        background-image: url(/img/fondo\ banner\ 3.jpg);
+        background-image: url(./img/fondo\ banner\ 3.jpg);
         height: 1000px;
         width: 100%;
     }
