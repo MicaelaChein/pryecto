@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2? family= Baile+Script & family= Fredoka:wght@300 & family= Handlee & familia= Montserrat:peso@200 &family= Tajawal:wght@800 & display=swap");
 @import url("https://fonts.googleapis.com/css2? family= Baile+Script & family= Fredoka:wght@300 & family= Handlee & familia= Montserrat:peso@200;700 &family= Tajawal:wght@800 & display=swap");
 @import url("https://fonts.googleapis.com/css2? family= Baile+Script & family= Fredoka:wght@300 & family= Handlee & familia= Montserrat:ital,peso@0,200;0,700;1,500;1,600 &familia = Fuente + Sans + Pro: peso @ 600 &family= Tajawal:wght@800 & display=swap");
+@import url(https://fonts.googleapis.com/css?family=Righteous);
 * {
   margin: 0;
   padding: 0;
@@ -8,7 +9,7 @@
 }
 
 .logo1 {
-  background: #3a82b4;
+  background: rgb(58, 130, 180);
   background: linear-gradient(90deg, rgba(58, 130, 180, 0.8774860286) 0%, rgba(253, 100, 29, 0.9307073171) 50%, rgba(245, 243, 241, 0.9223039558) 100%);
   justify-content: center;
   text-align: center;
@@ -17,14 +18,14 @@
 }
 
 .logo {
-  color: #ff3300;
+  color: rgb(255, 51, 0);
   font-family: "Montserrat", sans-serif;
   font-size: 50px;
   text-shadow: 2px 2px black;
 }
 
 .logo2 {
-  color: #0077ff;
+  color: rgb(0, 119, 255);
   font-family: "Source Sans Pro", sans-serif;
   font-size: 30px;
   text-shadow: 1.5px 1.5px black;
@@ -32,11 +33,11 @@
 }
 
 .navbar {
-  background-color: #ff3300;
+  background-color: rgb(255, 51, 0);
 }
 
 .navlogo {
-  color: #0077ff;
+  color: rgb(0, 119, 255);
   font-family: "Montserrat", sans-serif;
   font-size: 25px;
   text-shadow: 1.5px 1.5px black;
@@ -48,7 +49,7 @@
 }
 
 .nav-link {
-  color: #0077ff !important;
+  color: rgb(0, 119, 255) !important;
   font-family: "Montserrat", sans-serif;
   font-size: 18px;
 }
@@ -58,7 +59,7 @@
 }
 
 .navitem {
-  color: #0077ff;
+  color: rgb(0, 119, 255);
 }
 
 .baner {
@@ -75,7 +76,7 @@
 
 .principal {
   background-color: rgba(29, 34, 75, 0.5);
-  width: 60%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -84,11 +85,13 @@
 }
 
 h1 {
-  color: #0077ff;
+  float: left;
+  position: relative;
+  color: rgb(0, 119, 255);
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   font-size: 40px;
-  text-shadow: 1.5px 1.5px #ff3300;
+  text-shadow: 1.5px 1.5px rgb(255, 51, 0);
 }
 
 .subti {
@@ -96,7 +99,7 @@ h1 {
   font-family: "Source Sans Pro", sans-serif;
   font-size: 30px;
   text-transform: capitalize;
-  text-shadow: 1.5px 1.5px #0077ff;
+  text-shadow: 1.5px 1.5px rgb(0, 119, 255);
 }
 
 .p {
@@ -104,25 +107,25 @@ h1 {
   font-family: "Source Sans Pro", sans-serif;
   font-size: 25px;
   text-transform: capitalize;
-  text-shadow: 1px 1px #0077ff;
+  text-shadow: 1px 1px rgb(0, 119, 255);
 }
 
 button {
-  background-color: #0077ff;
-  color: #ff3300;
+  background-color: rgb(0, 119, 255);
+  color: rgb(255, 51, 0);
   font-family: "Source Sans Pro", sans-serif;
-  font-size: 20px;
+  font-size: 10px;
   border-radius: 5px;
-  padding: 5px;
+  padding: 3px;
   text-shadow: 1.5px 1.5px black;
-  border: double 5px #ff3300;
+  border: double 5px rgb(255, 51, 0);
 }
 
 button:hover {
-  color: #0077ff;
-  background-color: #ff3300;
+  color: rgb(0, 119, 255);
+  background-color: rgb(255, 51, 0);
   text-shadow: 1.5px 1.5px black;
-  border: double 5px #0077ff;
+  border: double 5px rgb(0, 119, 255);
 }
 
 .nos {
@@ -141,27 +144,32 @@ button:hover {
   padding: 10%;
   gap: 10%;
   width: 100%;
-  height: 500px;
+  height: 1500px;
 }
 
 .card-img-top {
-  height: 200px !important;
+  height: 150px;
 }
 
 .card-body {
-  height: 280px;
-  background-color: #70befd;
+  height: 300px;
+  background-color: rgba(249, 226, 204, 0.922);
+}
+
+.card:hover {
+  transform: scale(1.05);
+  transition: 0.7s;
 }
 
 .card-title {
-  color: #0077ff;
+  color: rgb(0, 119, 255);
   font-family: "Source Sans Pro", sans-serif;
   text-transform: uppercase;
-  background-color: #ff3300;
+  background-color: rgb(255, 51, 0);
 }
 
 .card-text {
-  color: white;
+  color: black;
   font-family: "Source Sans Pro", sans-serif;
   font-size: 18px;
   text-align: center;
@@ -169,21 +177,21 @@ button:hover {
 }
 
 .btn-primary {
-  color: #ff3300;
+  color: rgb(255, 51, 0);
   font-family: "Source Sans Pro", sans-serif;
-  background-color: #0077ff;
+  background-color: rgb(0, 119, 255);
   border: double 3px black;
   text-shadow: 0.5px 0.5px white;
   padding: 3%;
 }
 
 .btn-primary:hover {
-  color: #0077ff;
-  background-color: #ff3300;
+  color: rgb(0, 119, 255);
+  background-color: rgb(255, 51, 0);
 }
 
 .footer {
-  background: #3a82b4;
+  background: rgb(58, 130, 180);
   background: linear-gradient(90deg, rgba(58, 130, 180, 0.8774860286) 0%, rgba(253, 100, 29, 0.9307073171) 50%, rgba(245, 243, 241, 0.9223039558) 100%);
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -215,18 +223,18 @@ button:hover {
 }
 
 p {
-  color: #ff3300;
-  font-size: 20px;
+  color: rgb(255, 51, 0);
+  font-size: 10px;
   font-family: "Montserrat", sans-serif;
   text-align: center;
 }
 
 h4 {
   text-align: center;
-  font-size: 30px;
+  font-size: 10px;
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
-  color: #0077ff;
+  color: rgb(0, 119, 255);
   text-shadow: 1px 1px black;
 }
 
@@ -239,7 +247,377 @@ h2 {
   font-family: "Source Sans Pro", sans-serif;
   font-size: 50px;
   text-transform: capitalize;
-  text-shadow: 1.8px 1.8px #0077ff;
+  text-shadow: 1.8px 1.8px rgb(0, 119, 255);
+}
+
+.btn-wsp {
+  background-image: url(./img/whatsapp.png);
+  background-size: cover;
+  background-position: center;
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  bottom: 30px;
+  right: 30px;
+  border-radius: 40px;
+  border: double 2px rgb(255, 51, 0);
+}
+
+.contenedor {
+  margin: auto;
+  background-color: rgba(29, 34, 75, 0.5);
+  display: table;
+  width: 50%;
+}
+
+h1 span {
+  position: absolute;
+  right: 0;
+  width: 0;
+  background-color: rgb(0, 119, 255);
+  animation: maquina 5s infinite alternate;
+}
+
+#animacion {
+  font-size: 60px;
+}
+
+@keyframes maquina {
+  from {
+    width: 100%;
+  }
+  to {
+    width: 0;
+  }
+}
+body {
+  background-color: rgb(252, 252, 177);
+}
+
+.maquinas {
+  padding: 30px;
+  height: 6600px;
+}
+
+.product-row {
+  display: flex;
+  justify-content: space-evenly !important;
+  align-content: center;
+  gap: 10%;
+}
+
+.card-product {
+  background-color: rgb(112, 190, 253);
+  height: 600px !important;
+  border: 3px solid rgb(255, 51, 0);
+  margin-bottom: 10px;
+}
+
+.card-product:hover {
+  transform: scale(1.05);
+  transition: 0.7s;
+}
+
+.card-text {
+  font-size: 10px;
+}
+
+.btn-primary {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.card-img-top {
+  height: 300px;
+  background-color: white;
+  width: 100%;
+}
+
+.hero {
+  width: 100%;
+  height: 500px;
+  background-image: url(/img/2carrousel.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.envios {
+  background-image: url(./img/envios1.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.tit-envio {
+  background-color: rgb(255, 51, 0);
+  font-size: 30px;
+  width: 100%;
+}
+
+.tex-envio {
+  padding: 5px;
+  background-color: rgba(29, 34, 75, 0.5);
+  width: 100%;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-shadow: 1.5px 1.5px rgb(0, 119, 255);
+  text-transform: capitalize;
+}
+
+.contac {
+  background-image: url(/img/fondocontacto.jpg);
+  background-size: 100vw 100vh;
+  height: 650px;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: "Montserrat", sans-serif;
+}
+
+form {
+  width: 500px;
+  margin: auto;
+  background-color: rgba(29, 34, 75, 0.5);
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+input, textarea {
+  width: 100%;
+  margin-bottom: 20px;
+  font-size: 20px;
+  border: none;
+}
+
+textarea {
+  min-height: 100px;
+  max-height: 200px;
+}
+
+@media (max-width: 480px) {
+  form {
+    width: 100%;
+  }
+}
+.sub-insumos {
+  font-size: 40px;
+  background-color: rgb(255, 51, 0);
+}
+
+.banner-insumos {
+  background-image: url(./img/insumos.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 600px;
+}
+
+.insumos-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 8000px;
+}
+
+.insumos-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.card {
+  height: 400px;
+  margin-top: 20px;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  transition: 0.7s;
+}
+
+.sub-cont {
+  background-color: rgb(255, 51, 0);
+}
+
+.secservicios {
+  display: grid;
+  height: 800px;
+  grid-template-columns: 2.5fr 2.5fr;
+  grid-template-rows: 2fr 2fr 2fr;
+  grid-auto-columns: 1fr;
+  grid-auto-rows: 1fr;
+  gap: 5px 5px;
+  grid-auto-flow: column;
+  grid-template-areas: "textoserviciotecnico imagenserviciotecnico" "imagenlimpieza textolimpieza" "textorepuestos imagenrepuestos";
+  background: rgb(58, 130, 180);
+  background: linear-gradient(90deg, rgba(58, 130, 180, 0.8774860286) 0%, rgba(253, 100, 29, 0.9307073171) 50%, rgba(245, 243, 241, 0.9223039558) 100%);
+}
+
+.textoserviciotecnico {
+  grid-area: textoserviciotecnico;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.imagenserviciotecnico {
+  grid-area: imagenserviciotecnico;
+  background-image: url(/img/servicio-tecnico-fotocopiadora.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.imagenlimpieza {
+  grid-area: imagenlimpieza;
+  background-image: url(/img/LIMPIEZA.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.textolimpieza {
+  grid-area: textolimpieza;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.imagenrepuestos {
+  grid-area: imagenrepuestos;
+  background-image: url(/img/cambiar-toner.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.textorepuestos {
+  grid-area: textorepuestos;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.tex-serv {
+  font-size: 50px;
+}
+
+.alquiler {
+  background-image: url(/img/foto\ seccion1.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 700px;
+}
+
+.alqui {
+  background-color: rgba(29, 34, 75, 0.5);
+  width: 100%;
+  min-height: 700px;
+}
+
+.text-alquiler {
+  color: rgb(255, 51, 0);
+  text-shadow: 1px 1px black;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+@media screen and (min-width: 780px) and (max-width: 1024px) {
+  .principal {
+    background-color: rgba(29, 34, 75, 0.5);
+    width: 100%;
+  }
+
+  .tex-envios {
+    font-size: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+  }
+
+  .footer {
+    height: 300px;
+  }
+
+  .maquinas {
+    height: 5100px;
+  }
+
+  .insumos-container {
+    height: 4000px;
+  }
+}
+@media screen and (min-widht: 480px) and (max-width: 780px) {
+  .baner {
+    background-image: url(/img/fondo\ banner\ 3.jpg);
+    height: 1000px;
+    width: 100%;
+  }
+
+  .principal {
+    background-color: rgba(29, 34, 75, 0.5);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+  }
+
+  .h1 {
+    font-size: 20px;
+  }
+
+  .card-product {
+    gap: 5%;
+    height: 4000px;
+  }
+
+  .envios {
+    background-color: rgb(101, 101, 138);
+    height: 0px;
+  }
+
+  .tex-envio {
+    font-size: 5px;
+    padding: 0;
+  }
+
+  .footer .footer {
+    background: rgb(58, 130, 180);
+    background: linear-gradient(90deg, rgba(58, 130, 180, 0.8774860286) 0%, rgba(253, 100, 29, 0.9307073171) 50%, rgba(245, 243, 241, 0.9223039558) 100%);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 250px;
+    grid-auto-columns: 1fr;
+    grid-auto-rows: 1fr;
+    grid-auto-flow: column;
+    grid-template-areas: "ubicacion email telefonos horarios";
+  }
 }
 
 /*# sourceMappingURL=estilos.css.map */
